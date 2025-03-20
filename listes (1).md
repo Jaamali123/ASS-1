@@ -15,11 +15,6 @@ kernelspec:
 
 # Les listes
 JAMALI FZ 
-
-
-
-
-
 ###JAMALI FZ
 ```{admonition} Définition
 
