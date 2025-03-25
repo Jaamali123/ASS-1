@@ -537,10 +537,17 @@ for p, n, a in zip(prenoms, noms, ages):
 ```
 
 
-Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de même taille.
+Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de même taille
 
-
-
+### Exercice1: 
+```
+def verifier(l) :
+  pour i dans la plage(len(l)-1) :
+    si l[i]>l[i+1] :
+      renvoie False
+  renvoie True
+verifier([0, 5, 8, 8, 9])
+```
 ## Liste des exercices de ce chapitre
 
 1. [Argmax](ex4.1)
