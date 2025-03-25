@@ -548,6 +548,43 @@ def verifier(l) :
   renvoie True
 verifier([0, 5, 8, 8, 9])
 ```
+### Exercice2: 
+
+```
+def dep1(l):
+  d=dict()
+  pour i dans l:
+    si i dans d:
+      d[i]+=1
+    sinon:
+      d[i]=1
+  return d
+print("sol 1", dep1(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
+
+
+
+def dep2(l):
+  d =dict()
+  pour e dans l:
+    si e n'est pas dans d:
+      d[e]=l.count(e)
+  return d
+print("sol 2",dep2(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
+
+
+def dep3(l):
+  d =dict()
+  pour e dans l:
+    si e n'est pas dans d:
+      d[e]=1
+    sinon:
+      d[e]+=1
+  retourner d
+print("sol 3",dep3(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
+
+```
+
+
 ## Liste des exercices de ce chapitre
 
 1. [Argmax](ex4.1)
