@@ -583,7 +583,17 @@ def dep3(l):
 print("sol 3",dep3(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
 
 ```
-
+### Exercice3: 
+```
+def aff(dessin) :
+  pour ligne dans dessin :
+    pour col dans ligne :
+      si col == 1 :
+        print(" *", end= "")
+    sinon :
+        print(" ", end= "")
+  print()
+```
 
 ## Liste des exercices de ce chapitre
 
